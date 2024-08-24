@@ -1,0 +1,131 @@
+* {
+    background-color: #0C0E10;
+}
+
+#left-side-bar {
+    width: 20%;
+    margin-left: 5px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0px;
+}
+
+#left-side-bar img {
+    width: 250px;
+    height: 250px;
+    left: 33px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#left-side-bar h3 {
+    margin-top: 0px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 0px;
+}
+
+#left-side-bar p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 0px;
+    color: #FF2424;
+    margin-top: 10px;
+}
+
+#left-side-bar ol a li {
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+#left-side-bar ol a {
+    text-decoration: none;
+}
+
+#left-side-bar ol {
+    align-items: start;
+    width: 100%;
+}
+
+#left-side-bar h4 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+#header-section{   
+    display: flex;
+    
+}
+#right-side-bar{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#search-box{
+    width: 40vw;
+    height: 30px;
+    background-color: rgb(48, 45, 45);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#input{
+    width: 90%;
+    height: 90%;
+    border: none;
+    display: flex;
+    justify-content: end;
+    color: aliceblue;
+    background: transparent;
+}
+#search-box i {
+    margin:auto;
+    background:transparent;
+}
+#nav-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;    
+}
+#nav-bar button {
+    background-color: #FF2424;
+    color: #FFFFFF;
+    border: none;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#nav-bar img{
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+#delicious-sec img{
+    width: 95%;
+    margin: 15px
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #FFFFFF;
+}
